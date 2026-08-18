@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Movies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="index.html" class="logo">🎬 Movie Explorer</a>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="search.html">Search</a>
+            <a href="favorites.html">Favorites</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="search-section">
+            <h1>Search Movies</h1>
+
+            <div class="search-box">
+                <input type="text" placeholder="Search for a movie..." autocomplete="off">
+                <button>Search</button>
+            </div>
+        </section>
+
+        <section class="search-history">
+            <div class="history-header">
+                <h2>Search History</h2>
+                <button class="clear-history">Clear History</button>
+            </div>
+
+            <div class="history-list"></div>
+        </section>
+
+        <section class="results-section">
+            <h2>Search Results</h2>
+
+            <div class="movie-cards-home"></div>
+        </section>
+
+    </main>
+
+    <script src="search.js"></script>
+
+</body>
+
+</html>
